@@ -1,0 +1,265 @@
+:root {
+    --height-header: 70px;
+}
+
+.header_container {
+    width: 100%;
+    height: 700px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: var(--height-header);
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_item {
+    margin: 0 20px;
+}
+
+.burger_btn {
+    display: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+}
+
+.burger_menu {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100% - var(--height-header));
+    background-color: #000000;
+}
+
+.suptitle p {
+    text-align: center;
+    font-family: 'DroidSerif', sans-serif;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: -0.025em;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.title p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.025em;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.btn button {
+    text-align: center;
+    width: 240px;
+    height: 65px;
+    background-color: #fed136;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/* Resize */
+
+
+/* 1024 */
+
+@media (max-width: 1024px) {
+    .header {
+        padding: 0 30px;
+    }
+}
+
+
+/* 812 */
+
+@media (max-width: 812px) {
+    .header {
+        padding: 0 30px;
+    }
+    .list {
+        display: none;
+    }
+    .burger_btn {
+        display: flex;
+    }
+    .suptitle p {
+        font-size: 30px;
+        padding: 0;
+    }
+    .title p {
+        font-size: 45px;
+        padding: 40px 10px;
+    }
+    .btn button {
+        width: 200px;
+        height: 45px;
+    }
+}
+
+
+/* 768 */
+
+@media (max-width: 768px) {
+    .header {
+        padding: 0 30px;
+    }
+    .list {
+        display: none;
+    }
+    .burger_btn {
+        display: flex;
+    }
+    .suptitle p {
+        font-size: 30px;
+        padding: 0;
+    }
+    .title p {
+        font-size: 45px;
+        padding: 40px 10px;
+    }
+    .btn button {
+        width: 200px;
+        height: 45px;
+    }
+}
+
+
+/* 740 */
+
+@media (max-width: 740px) {
+    .header {
+        padding: 0 30px;
+    }
+    .list {
+        display: none;
+    }
+    .burger_btn {
+        display: flex;
+    }
+}
+
+
+/* 480 */
+
+@media (max-width: 480px) {
+    .header {
+        padding: 0 30px;
+    }
+    .list {
+        display: none;
+    }
+    .burger_btn {
+        display: flex;
+    }
+}
+
+
+/* 375 */
+
+@media (max-width: 375px) {
+    .header_container {
+        height: 500px;
+    }
+    .list {
+        display: none;
+    }
+    .burger_btn {
+        display: flex;
+    }
+    .suptitle p {
+        font-size: 20px;
+        padding: 0;
+    }
+    .title p {
+        font-size: 35px;
+        padding: 30px 20px;
+    }
+    .btn button {
+        width: 170px;
+        height: 45px;
+    }
+}
+
+
+/* 360 */
+
+@media (max-width: 360px) {
+    .header_container {
+        height: 500px;
+    }
+    .list {
+        display: none;
+    }
+    .burger_btn {
+        display: flex;
+    }
+    .suptitle p {
+        font-size: 20px;
+        padding: 0;
+    }
+    .title p {
+        font-size: 35px;
+        padding: 30px 10px;
+    }
+    .btn button {
+        width: 170px;
+        height: 45px;
+    }
+}
+
+
+/* 320 */
+
+@media (max-width: 320px) {
+    .header_container {
+        height: 500px;
+    }
+    .list {
+        display: none;
+    }
+    .burger_btn {
+        display: flex;
+    }
+    .suptitle p {
+        font-size: 20px;
+    }
+    .title p {
+        font-size: 35px;
+    }
+    .btn button {
+        width: 170px;
+        height: 45px;
+    }
+}
