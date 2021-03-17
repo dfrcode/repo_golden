@@ -53,6 +53,20 @@
         max-width: 1200px;
     }
     
+    .groups .content_list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 1200px;
+        margin: 0 10px;
+        max-width: 100%;
+    }
+    
+    .groups .content_list img {
+        margin: 0 10px;
+    }
+    
     .content_list_item {
         display: flex;
         justify-content: center;
@@ -69,6 +83,7 @@
         flex-direction: column;
         width: 290px;
         margin: 20px;
+        background-color: #222222;
     }
     
     .image {
@@ -213,10 +228,21 @@
     @media (max-width: 768px) {}
     /* 740 */
     
-    @media (max-width: 740px) {}
+    @media (max-width: 740px) {
+        .groups .content_list {
+            padding: 0 150px;
+        }
+        .groups .content_list img {
+            margin: 30px 40px;
+        }
+    }
     /* 480 */
     
-    @media (max-width: 480px) {}
+    @media (max-width: 480px) {
+        .groups .content_list img {
+            margin: 30px 10px;
+        }
+    }
     /* 414 */
     
     @media (max-width: 414px) {
@@ -230,6 +256,12 @@
         .subtitle p {
             font-size: 16px;
             padding: 0 30px;
+        }
+        .groups .content_list {
+            padding: 0 50px;
+        }
+        .groups .content_list img {
+            margin: 30px 10px;
         }
     }
     /* 375 */
@@ -250,6 +282,12 @@
             padding: 30px;
             font-size: 12px;
         }
+        .groups .content_list {
+            padding: 0 30px;
+        }
+        .groups .content_list img {
+            margin: 30px 10px;
+        }
     }
     /* 360 */
     
@@ -269,6 +307,12 @@
             padding: 30px;
             font-size: 12px;
         }
+        .groups .content_list {
+            padding: 0 30px;
+        }
+        .groups .content_list img {
+            margin: 30px 10px;
+        }
     }
     /* 320 */
     
@@ -287,5 +331,8 @@
         .team .text p {
             padding: 30px;
             font-size: 12px;
+        }
+        .groups .content_list img {
+            margin: 30px 10px;
         }
     }
