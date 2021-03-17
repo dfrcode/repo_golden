@@ -24,6 +24,7 @@
 }
 
 .footer .box_icons .icon {
+    cursor: pointer;
     width: 40px;
     height: 40px;
     border: none;
@@ -32,6 +33,11 @@
     margin: 0 5px;
     justify-content: center;
     align-items: center;
+    transition: transform .2s linear;
+}
+
+.footer .box_icons .icon:hover {
+    transform: rotate(-30deg);
 }
 
 .box_clear {
