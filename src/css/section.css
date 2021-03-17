@@ -8,6 +8,7 @@ section {
 }
 
 .title h1 {
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     line-height: 75px;
@@ -18,10 +19,107 @@ section {
 }
 
 .subtitle p {
+    text-align: center;
     font-family: 'DroidSerif', sans-serif;
     font-size: 16px;
     line-height: 1.2;
     font-weight: 400;
     font-style: italic;
     color: #777777;
+}
+
+
+/* Resize */
+
+
+/* 1024 */
+
+@media (max-width: 1024px) {}
+
+
+/* 812 */
+
+@media (max-width: 812px) {}
+
+
+/* 768 */
+
+@media (max-width: 768px) {}
+
+
+/* 740 */
+
+@media (max-width: 740px) {}
+
+
+/* 480 */
+
+@media (max-width: 480px) {}
+
+
+/* 414 */
+
+@media (max-width: 414px) {
+    section {
+        width: 100%;
+        padding: 100px 0;
+    }
+    .title h1 {
+        font-size: 30px;
+    }
+    .subtitle p {
+        font-size: 16px;
+        padding: 0 30px;
+    }
+}
+
+
+/* 375 */
+
+@media (max-width: 375px) {
+    section {
+        width: 100%;
+        padding: 100px 0;
+    }
+    .title h1 {
+        font-size: 30px;
+    }
+    .subtitle p {
+        font-size: 16px;
+        padding: 0 30px;
+    }
+}
+
+
+/* 360 */
+
+@media (max-width: 360px) {
+    section {
+        width: 100%;
+        padding: 100px 0;
+    }
+    .title h1 {
+        font-size: 26px;
+    }
+    .subtitle p {
+        font-size: 16px;
+        padding: 0 30px;
+    }
+}
+
+
+/* 320 */
+
+@media (max-width: 320px) {
+    section {
+        width: 100%;
+        padding: 100px 0;
+    }
+    .title h1 {
+        font-size: 26px;
+    }
+    .subtitle p {
+        font-size: 16px;
+        padding: 0 30px;
+    }
 }
